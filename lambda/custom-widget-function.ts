@@ -86,7 +86,6 @@ export const handler = async (event: Event, context: Context) => {
         </td>
       </tr>
     `;
-      // });
     })
     .join("");
 
