@@ -75,7 +75,7 @@ export const handler = async (event: Event, context: Context) => {
       <tr>
         <td>${name}</td>
         <td>
-          <a class="${cls}" style="submit">選ぶ</a>
+          <a class="${cls}">選ぶ</a>
           <cwdb-action
             action="call"
             endpoint="${context.invokedFunctionArn}" 
